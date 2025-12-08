@@ -23,9 +23,7 @@ GitHub Actions 可以定期执行任务，确保 Koyeb 账户保持活跃。
    | `TG_CHAT_ID`     | 你的 Telegram 账号 ID。      |
 
    **`KOYEB_ACCOUNTS` 格式如下：**
-   
-   ```json
-[
+   [
   {
     "name": "主号",
     "token": "koyeb_xxx主号"
@@ -36,6 +34,7 @@ GitHub Actions 可以定期执行任务，确保 Koyeb 账户保持活跃。
   }
 ]
 
+   ```json
    ```
 
 3. **启用 Actions**
